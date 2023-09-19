@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({
-                                       children,
-                                   }: {
+   children,
+}: {
     children: React.ReactNode
 }) {
     return (
